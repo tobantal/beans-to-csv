@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class UserDaoImpl implements UserDao {
 
-    private static final int ROWS = 10_000_000;
+    private static final int ROWS = 1_000_000;
     
     private static final String FAKE_DATA = UUID.randomUUID().toString();
 
